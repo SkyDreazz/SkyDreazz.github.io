@@ -1,0 +1,29 @@
+.site-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1vw;
+    height: 15vh;
+}
+
+.site-footer .site-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    padding: 1vw;
+    column-gap: 2vw;
+}
+
+.site-footer .site-info p{
+    font-size: 1.2vw;
+    margin-bottom: 0;
+    color: #4e3300;
+    font-family: 'Montserrat';
+}
+
+.site-footer h2{
+    color: #4e3300;
+    font-size: 1.3vw;
+    font-family: 'Montserrat';
+}

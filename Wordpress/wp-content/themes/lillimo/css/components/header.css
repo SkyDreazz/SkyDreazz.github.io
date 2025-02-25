@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'Billie Eilish';
+    src: url('https://github.com/SkyDreazz/SkyDreazz.github.io/wp-content/themes/lillimo/css/fonts/Billie\ Eilish.otf');
+}
+
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #4e3300;
+}
+
+.site-header, .site-footer{
+    background-color: #b19a5c;
+    height: 10vh;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+    padding: 0.5vw;
+}
+
+.header h2{
+    font-size: 2vw;
+    color: #4e3300;
+    font-family: 'Billie Eilish';
+    margin-left: 0.5vw;
+}
+
+.header .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header nav {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header nav a {
+    width: 10vw;
+    text-align: center;
+    color: #4e3300;
+    font-size: 1.7vw;
+    font-family: 'Billie Eilish';
+}
+
+a::after{
+    color: none;
+}
+
+img {
+    width: 4vw;
+}
